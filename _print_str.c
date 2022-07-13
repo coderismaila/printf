@@ -5,6 +5,7 @@
  * @str: pointer to string to print
  * Return: length of string
  */
+
 int _print_str(char *str)
 {
 	int count = 0;

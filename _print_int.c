@@ -2,7 +2,7 @@
 
 /**
  * _print_int - prints an integer
- * @var: variable to be printed
+ * @num: variable to be printed
  * Return: length of printed characters
  */
 

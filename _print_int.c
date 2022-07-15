@@ -3,6 +3,7 @@
 /**
  * _print_int - prints an integer
  * @num: variable to be printed
+ * @base: number base
  * Return: length of printed characters
  */
 
@@ -16,6 +17,13 @@ int _print_int(int num, int base)
 		_putchar(buf[i]);
 	return (total);
 }
+
+/**
+ * _print_unsigned_int - prints unsigned integer
+ * @num: number to print
+ * @base: base of number
+ * Return: integer length of printed character
+ */
 
 int _print_unsigned_int(unsigned int num, int base)
 {

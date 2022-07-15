@@ -16,5 +16,5 @@ int signed_num_to_str(int num, int base, char *buffer)
 		*buffer++ = '-';
 		num = -num;
 	}
-	return unsigned_num_to_str(num, base, buffer);
+	return (unsigned_num_to_str(num, base, buffer));
 }

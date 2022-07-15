@@ -27,7 +27,13 @@ int convert(const char *fmt, va_list list)
 			break;
 		case 'd':
 		case 'i':
-			total += _print_int((long)(va_arg(list, int)));
+			total += _print_int(va_arg(list, int), 10);
+			break;
+		case 'u':
+			total += _print_unsigned_int(va_arg(list, unsigned int), 10);
+			break;
+		case 'b':
+			total += _print_int(va_arg(list, int), 2);
 			break;
 	}
 	return (total);
